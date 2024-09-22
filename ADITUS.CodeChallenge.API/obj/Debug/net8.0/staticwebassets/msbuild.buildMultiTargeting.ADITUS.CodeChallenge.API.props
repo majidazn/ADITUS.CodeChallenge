@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ADITUS.CodeChallenge.API.props" />
+</Project>

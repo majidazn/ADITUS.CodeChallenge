@@ -1,0 +1,648 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Codes\\testCode\\code-challenge\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\commands\\reservehardwarecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\commands\\reservehardwarecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F9D9E45-BE87-4290-85C3-832A0B743D39}|ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application.test\\commands\\reservehardwarecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F9D9E45-BE87-4290-85C3-832A0B743D39}|ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj|solutionrelative:aditus.codechallenge.application.test\\commands\\reservehardwarecommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F9D9E45-BE87-4290-85C3-832A0B743D39}|ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application.test\\queries\\geteventbyidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F9D9E45-BE87-4290-85C3-832A0B743D39}|ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj|solutionrelative:aditus.codechallenge.application.test\\queries\\geteventbyidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\queries\\geteventsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\queries\\geteventsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\queries\\geteventbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\queries\\geteventbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|solutionrelative:aditus.codechallenge.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\common\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\common\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.api\\aditus.codechallenge.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|solutionrelative:aditus.codechallenge.api\\aditus.codechallenge.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F9D9E45-BE87-4290-85C3-832A0B743D39}|ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application.test\\aditus.codechallenge.application.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F9D9E45-BE87-4290-85C3-832A0B743D39}|ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj|solutionrelative:aditus.codechallenge.application.test\\aditus.codechallenge.application.test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|solutionrelative:aditus.codechallenge.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|solutionrelative:aditus.codechallenge.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\services\\hardwareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\services\\hardwareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\aditus.codechallenge.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\aditus.codechallenge.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\strategy\\onlinestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\strategy\\onlinestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\common\\interfaces\\ihttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\common\\interfaces\\ihttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\common\\interfaces\\ihardwareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\common\\interfaces\\ihardwareservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\strategy\\hybridstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\strategy\\hybridstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\entity\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\entity\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\entity\\hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\entity\\hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\enum\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\enum\\eventtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\exceptions\\notsufficienthardwareexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\exceptions\\notsufficienthardwareexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\exceptions\\reservehardwarelessthan4weeksisnotallowedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\exceptions\\reservehardwarelessthan4weeksisnotallowedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\aditus.codechallenge.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\aditus.codechallenge.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.infrastructure\\aditus.codechallenge.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|solutionrelative:aditus.codechallenge.infrastructure\\aditus.codechallenge.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.infrastructure\\httpservices\\onlinestatisticshttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|solutionrelative:aditus.codechallenge.infrastructure\\httpservices\\onlinestatisticshttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.infrastructure\\httpservices\\basehttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|solutionrelative:aditus.codechallenge.infrastructure\\httpservices\\basehttpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.infrastructure\\configuration\\infrastructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|solutionrelative:aditus.codechallenge.infrastructure\\configuration\\infrastructureconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\strategy\\istrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\strategy\\istrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\queries\\gethardwarsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\queries\\gethardwarsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\queries\\getreservehardwarsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\queries\\getreservehardwarsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\entity\\reservedhardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\entity\\reservedhardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.api\\controllers\\hardwarescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C27E634C-9DBA-44EB-95DD-C7F773E45D9A}|ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj|solutionrelative:aditus.codechallenge.api\\controllers\\hardwarescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.infrastructure\\request\\httprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64328F6F-7D5A-4DB3-A7AF-16BF49B67994}|ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj|solutionrelative:aditus.codechallenge.infrastructure\\request\\httprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.domain\\dto\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33118A7-2C3C-498D-AD8B-66D42FD4B66B}|ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj|solutionrelative:aditus.codechallenge.domain\\dto\\statistic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|d:\\codes\\testcode\\code-challenge\\src\\aditus.codechallenge.application\\strategy\\onsitestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E2EB3D7-ABAD-417C-9E86-84FEA3461706}|ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj|solutionrelative:aditus.codechallenge.application\\strategy\\onsitestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\IEventService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\Event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\Hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\ReservedHardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetEventByIdQuery.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetEventByIdQuery.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Queries\\GetEventByIdQuery.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetEventByIdQuery.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Queries\\GetEventByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:49:03.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetEventByIdQueryHandlerTests.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application.Test\\Queries\\GetEventByIdQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application.Test\\Queries\\GetEventByIdQueryHandlerTests.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application.Test\\Queries\\GetEventByIdQueryHandlerTests.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application.Test\\Queries\\GetEventByIdQueryHandlerTests.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAgwCEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:51:18.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetEventsQuery.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetEventsQuery.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Queries\\GetEventsQuery.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetEventsQuery.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Queries\\GetEventsQuery.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwBUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:53:48.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReserveHardwareCommandHandlerTests.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application.Test\\Commands\\ReserveHardwareCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application.Test\\Commands\\ReserveHardwareCommandHandlerTests.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application.Test\\Commands\\ReserveHardwareCommandHandlerTests.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application.Test\\Commands\\ReserveHardwareCommandHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T17:12:28.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReserveHardwareCommand.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Commands\\ReserveHardwareCommand.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Commands\\ReserveHardwareCommand.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Commands\\ReserveHardwareCommand.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Commands\\ReserveHardwareCommand.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:16:11.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IEventService.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:17:34.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Services\\EventService.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\EventService.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Services\\EventService.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswEUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:55:09.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.API\\Controllers\\EventsController.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.API\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAawB4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:54:33.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ADITUS.CodeChallenge.API.csproj",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj",
+              "RelativeToolTip": "ADITUS.CodeChallenge.API\\ADITUS.CodeChallenge.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-16T13:22:17.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\Program.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.API\\Program.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\Program.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:56:04.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ADITUS.CodeChallenge.Application.Test.csproj",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application.Test\\ADITUS.CodeChallenge.Application.Test.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-20T17:11:42.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HardwareService.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\HardwareService.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Services\\HardwareService.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\HardwareService.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Services\\HardwareService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:20:50.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\appsettings.json",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.API\\appsettings.json",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\appsettings.json",
+              "RelativeToolTip": "ADITUS.CodeChallenge.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-19T10:05:29.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ADITUS.CodeChallenge.Domain.csproj",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\ADITUS.CodeChallenge.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-18T13:11:48.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OnlineStrategy.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\OnlineStrategy.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Strategy\\OnlineStrategy.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\OnlineStrategy.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Strategy\\OnlineStrategy.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:56:15.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IHttpService.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHttpService.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHttpService.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHttpService.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T09:17:28.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HybridStrategy.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\HybridStrategy.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Strategy\\HybridStrategy.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\HybridStrategy.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Strategy\\HybridStrategy.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T14:34:41.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Entity\\Event.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\Entity\\Event.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Entity\\Event.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\Entity\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T10:07:17.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Hardware.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Entity\\Hardware.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\Entity\\Hardware.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Entity\\Hardware.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\Entity\\Hardware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:22:37.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IHardwareService.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHardwareService.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHardwareService.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHardwareService.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Common\\Interfaces\\IHardwareService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:34:27.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EventType.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Enum\\EventType.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\Enum\\EventType.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Enum\\EventType.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\Enum\\EventType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwB0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:53:43.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NotSufficientHardwareException.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Exceptions\\NotSufficientHardwareException.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\Exceptions\\NotSufficientHardwareException.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Exceptions\\NotSufficientHardwareException.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\Exceptions\\NotSufficientHardwareException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:27:46.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ReserveHardwareLessThan4WeeksIsNotAllowedException.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Exceptions\\ReserveHardwareLessThan4WeeksIsNotAllowedException.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\Exceptions\\ReserveHardwareLessThan4WeeksIsNotAllowedException.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Exceptions\\ReserveHardwareLessThan4WeeksIsNotAllowedException.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\Exceptions\\ReserveHardwareLessThan4WeeksIsNotAllowedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T13:24:51.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ADITUS.CodeChallenge.Application.csproj",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\ADITUS.CodeChallenge.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-18T12:57:37.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ADITUS.CodeChallenge.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Infrastructure\\ADITUS.CodeChallenge.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-16T13:48:45.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetHardwarsQuery.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetHardwarsQuery.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Queries\\GetHardwarsQuery.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetHardwarsQuery.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Queries\\GetHardwarsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T09:35:06.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "InfrastructureConfiguration.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\Configuration\\InfrastructureConfiguration.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Infrastructure\\Configuration\\InfrastructureConfiguration.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\Configuration\\InfrastructureConfiguration.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Infrastructure\\Configuration\\InfrastructureConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:46:35.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OnlineStatisticsHttpService.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\HttpServices\\OnlineStatisticsHttpService.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Infrastructure\\HttpServices\\OnlineStatisticsHttpService.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\HttpServices\\OnlineStatisticsHttpService.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Infrastructure\\HttpServices\\OnlineStatisticsHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:47:26.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BaseHttpService.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\HttpServices\\BaseHttpService.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Infrastructure\\HttpServices\\BaseHttpService.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\HttpServices\\BaseHttpService.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Infrastructure\\HttpServices\\BaseHttpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T12:47:24.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IStrategy.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\IStrategy.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Strategy\\IStrategy.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\IStrategy.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Strategy\\IStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:55:51.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetReserveHardwarsQuery.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetReserveHardwarsQuery.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Queries\\GetReserveHardwarsQuery.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Queries\\GetReserveHardwarsQuery.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Queries\\GetReserveHardwarsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:15:31.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReservedHardware.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Entity\\ReservedHardware.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\Entity\\ReservedHardware.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Entity\\ReservedHardware.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\Entity\\ReservedHardware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:22:57.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "HardwaresController.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\Controllers\\HardwaresController.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.API\\Controllers\\HardwaresController.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.API\\Controllers\\HardwaresController.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.API\\Controllers\\HardwaresController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAWwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T08:15:42.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\Event.cs",
+              "ToolTip": "C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\Event.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:53:23.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Statistic.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Dto\\Statistic.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Domain\\Dto\\Statistic.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Dto\\Statistic.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Domain\\Dto\\Statistic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T15:11:41.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OnsiteStrategy.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\OnsiteStrategy.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Application\\Strategy\\OnsiteStrategy.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Strategy\\OnsiteStrategy.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Application\\Strategy\\OnsiteStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:56:21.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Hardware.cs",
+              "DocumentMoniker": "C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\Hardware.cs",
+              "ToolTip": "C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\Hardware.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:20:22.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HttpRequest.cs",
+              "DocumentMoniker": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\Request\\HttpRequest.cs",
+              "RelativeDocumentMoniker": "ADITUS.CodeChallenge.Infrastructure\\Request\\HttpRequest.cs",
+              "ToolTip": "D:\\Codes\\testCode\\code-challenge\\src\\ADITUS.CodeChallenge.Infrastructure\\Request\\HttpRequest.cs",
+              "RelativeToolTip": "ADITUS.CodeChallenge.Infrastructure\\Request\\HttpRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAApwBYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T16:02:24.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ReservedHardware.cs",
+              "DocumentMoniker": "C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\ReservedHardware.cs",
+              "ToolTip": "C:\\Users\\MajiD\\Desktop\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Domain\\Eintity\\ReservedHardware.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:21:03.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "D:\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\IEventService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\IEventService.cs",
+              "ToolTip": "D:\\Codes\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\IEventService.cs",
+              "RelativeToolTip": "..\\..\\..\\code-challenge\\src\\ADITUS.CodeChallenge.Application\\Services\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T13:55:46.498Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "ContainingType": "ADITUS.CodeChallenge.API.Controllers.EventsController",
+    "Method": "GetEvents",
+    "RelativePath": "events",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ADITUS.CodeChallenge.API.Controllers.EventsController",
+    "Method": "GetEvent",
+    "RelativePath": "events/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ADITUS.CodeChallenge.API.Controllers.HardwaresController",
+    "Method": "GetHardwares",
+    "RelativePath": "hardwares",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ADITUS.CodeChallenge.API.Controllers.HardwaresController",
+    "Method": "GetStatus",
+    "RelativePath": "hardwares/get-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ADITUS.CodeChallenge.API.Controllers.HardwaresController",
+    "Method": "Reserve",
+    "RelativePath": "hardwares/reserve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EventId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "HardwareId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Quantity",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
